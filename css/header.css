@@ -1,0 +1,138 @@
+body{
+	margin: 0;
+	text-align: center;
+	font-family: "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", Osaka, Helvetica, Arial, sans-serif;
+	font-size: 10px;
+	background-color: #FFF;
+}
+header{
+	position: relative;	
+}
+.img_top{
+	width: 980px;
+	height: 70px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.line_top{
+	height: 20px;
+	background-color: #DDDDDD;
+}
+.line_top h1{
+	padding-top: 4px;
+	font-size: 12px;
+	color: #504e4e;
+	font-weight: bolder;
+}
+.h_contents{
+	width: 980px;
+	position: relative;
+    margin: 0 auto;  
+}
+.h_contents ul{
+	list-style: none;
+	align-items: center;
+	margin-left: 5px;
+}
+.header_nav li:nth-child(n + 7){
+	border-left: 1px solid #AAA;
+}
+.guide_link{
+	border-left: none;
+}
+.header_nav{
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	height: 52px;
+}
+.header_nav a{
+	padding: 1px 10px;
+	display: inline-block;
+	line-height: 1.5;
+}
+.header_nav ul{
+	display: flex;
+}
+.header_nav ul::after{
+	content: "";
+	width: 1px;
+	height: 20px;
+	border-right: 1px dotted #AAA;
+}
+.header_nav p{
+	font-weight: bold;
+	margin-left: 12px;
+}
+.header_img{
+	padding: 8px 0;
+	width: 195px;
+	height: 35px;
+}
+.header_searchNav{
+	display: flex;
+	font-size: 14px;
+	font-weight: bold;
+	height: 30px;
+}
+.header_searchNav ul{
+	margin-left: 15px;
+	display: flex;
+}
+.header_searchNav li+li{
+	padding-left: 15px;
+
+}
+.header_searchNav a{
+	padding-right: 10px;
+	position: relative;
+	display: block;
+}
+.header_searchNav a::before{
+	content: '';
+	position: absolute;
+	border: 5px solid black;
+	bottom: 1px;
+	left: -15px;
+}
+.form{
+	width: 154px;
+    height: 16px;
+	border-top: 2px solid #AAA;
+	padding-bottom: 5px;
+}
+.search{
+	position: absolute;
+	right: 0;
+	top: 53px;
+}
+.line_bottom{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background-color: #f4efd9;
+	border-top: 1px solid #BCBCBC;
+	border-bottom: 1px solid #BCBCBC;
+	margin-top: 5px;
+	padding: 3px 0;
+}
+.line_bottom p{
+	margin: 0 5px;
+	font-size: 12px;
+}
+.guide_link{
+	line-height: 1.5;
+}
+.header_searchNav h2{
+	display: none;
+}
+#nav-input{
+	display: none;
+}
+.section_title{
+    display: none;
+}
