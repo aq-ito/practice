@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     newLeft.addEventListener('click',slideLeft2,false);
     newRight.addEventListener('click',slideRight2,false);
     
-    var autoSlide = 5300;
+    var autoSlide = 5000;
     var loop = setInterval(slider,autoSlide);
     var windowSize = 767;
 
